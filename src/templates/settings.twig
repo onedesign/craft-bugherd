@@ -1,0 +1,32 @@
+{# @var craft \craft\web\twig\variables\CraftVariable #}
+{#
+/**
+ * Bugherd plugin for Craft CMS
+ *
+ * Bugherd Utility Content
+ *
+ * @author    One Design Company
+ * @copyright Copyright (c) 2022 One Design Company
+ * @link      https://onedesigncompany.com/
+ * @package   Bugherd
+ * @since     1.0.0
+ */
+#}
+{% import "_includes/forms" as forms %}
+
+{{ forms.booleanMenuField({
+  label: 'Enable Bugherd' | t,
+  value: settings.enabled ?? false,
+  yesLabel: 'Enabled'|t('bugherd'),
+  noLabel: 'Disabled'|t('bugherd'),
+  includeEnvVars: true,
+  name: 'enabled'
+}) }}
+
+{{ forms.autosuggestField({
+  label: 'Project ID' | t,
+  name: 'projectId',
+  suggestEnvVars: true,
+  value: settings.projectId ?? '',
+  size: 24
+}) }}
