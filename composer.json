@@ -42,5 +42,11 @@
         "documentationUrl": "https://github.com/onedesign/bugherd/blob/master/README.md",
         "changelogUrl": "https://raw.githubusercontent.com/onedesign/bugherd/master/CHANGELOG.md",
         "class": "onedesign\\bugherd\\Bugherd"
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true,
+            "craftcms/plugin-installer": true
+        }
     }
 }
