@@ -31,10 +31,10 @@ Provides a simple way to include Bughed on your Craft CMS sites.
 There are only two settings within the plugin
 
 ### Enable Bugherd
-When enabled, the Bugherd script will be output when the `\yii\web\View::EVENT_END_BODY` event is fired (just before the closing `</body>` tag).
+When enabled, the Bugherd script will be output when the `\yii\web\View::EVENT_END_BODY` event is fired (just before the closing `</body>` tag). By default, this will read from a `$BUGHERD_ENABLED` environment variable.
 
 ### Project Id
-The ID of your Bugherd project
+The ID of your Bugherd project. By default this will read from a `$BUGHERD_PROJECT_ID` environment variable.
 
 
 ## Using Bugherd
