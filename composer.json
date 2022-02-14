@@ -2,7 +2,6 @@
     "name": "onedesign/craft-bugherd",
     "description": "Easily install Bugherd on your Craft CMS site",
     "type": "craft-plugin",
-    "version": "1.0.0",
     "keywords": [
         "craft",
         "cms",
