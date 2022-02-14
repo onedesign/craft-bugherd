@@ -2,10 +2,11 @@
 
 namespace onedesign\bugherd\services;
 
+use craft\base\Component;
 use craft\helpers\App;
 use craft\web\View;
 
-class Bugherd extends \craft\base\Component
+class Bugherd extends Component
 {
     public static function renderScript()
     {

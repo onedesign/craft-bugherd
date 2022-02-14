@@ -80,7 +80,9 @@ class Bugherd extends Plugin
             View::class,
             \yii\web\View::EVENT_END_BODY,
             function() {
-                echo services\Bugherd::renderScript();
+                if (Craft::$app->request->getIsSiteRequest()) {
+                    echo services\Bugherd::renderScript();
+                }
             }
         );
     }
