@@ -10,8 +10,8 @@
         "bugherd"
     ],
     "support": {
-        "docs": "https://github.com/onedesign/bugherd/blob/master/README.md",
-        "issues": "https://github.com/onedesign/bugherd/issues"
+        "docs": "https://github.com/onedesign/craft-bugherd/blob/main/README.md",
+        "issues": "https://github.com/onedesign/craft-bugherd/issues"
     },
     "license": "MIT",
     "authors": [
@@ -38,8 +38,8 @@
         "handle": "bugherd",
         "developer": "One Design Company",
         "developerUrl": "https://onedesigncompany.com/",
-        "documentationUrl": "https://github.com/onedesign/bugherd/blob/master/README.md",
-        "changelogUrl": "https://raw.githubusercontent.com/onedesign/bugherd/master/CHANGELOG.md",
+        "documentationUrl": "https://github.com/onedesign/craft-bugherd/blob/main/README.md",
+        "changelogUrl": "https://github.com/onedesign/craft-bugherd/blob/main/CHANGELOG.md",
         "class": "onedesign\\bugherd\\Bugherd"
     },
     "config": {
